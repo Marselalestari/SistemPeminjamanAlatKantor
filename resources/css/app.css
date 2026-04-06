@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================================
+   LUXURY GREEN THEME - EMERALD INVENTORY
+================================ */
+
+/* Primary Colors */
+:root {
+    --primary-dark: #0a5f4a;
+    --primary-emerald: #10b981;
+    --primary-light: #34d399;
+    --accent-gold: #d4af37;
+    --accent-light-gold: #f4d16d;
+    --dark-bg: #0f1419;
+    --card-bg: #ffffff;
+    --text-primary: #0a5f4a;
+    --text-secondary: #6b7280;
+    --border-color: #d4d4d8;
+}
+
+/* Global Base Styles */
+body {
+    background: linear-gradient(135deg, #f5faf9 0%, #ecf7f4 100%) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Premium Cards */
+.card-premium {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(10, 95, 74, 0.08);
+    border: 1px solid rgba(16, 185, 129, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card-premium:hover {
+    box-shadow: 0 20px 50px rgba(10, 95, 74, 0.12);
+    transform: translateY(-4px);
+}
+
+/* Buttons Premium */
+.btn-premium {
+    background: linear-gradient(135deg, #0a5f4a 0%, #10b981 100%);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 15px rgba(10, 95, 74, 0.3);
+}
+
+.btn-premium:hover {
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+    color: #1f2937;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
+}
+
+/* Premium Inputs */
+.input-premium {
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.input-premium:focus {
+    border-color: #10b981;
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
+    outline: none;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: var(--primary-dark);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
