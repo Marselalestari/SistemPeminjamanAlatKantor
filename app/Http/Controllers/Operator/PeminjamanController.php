@@ -172,7 +172,11 @@ class PeminjamanController extends Controller
     public function simpanDendaStruk(Request $request, Peminjaman $peminjaman)
     {
         $request->validate([
-            'denda_manual' => 'required|numeric|min:0',
+            'denda_manual'      => 'required|numeric|min:0',
+            'denda_kerusakan'   => 'required|numeric|min:0',
+            'total'             => 'required|numeric|min:0',
+            'bayar'             => 'required|numeric|min:0',
+            'kembali'           => 'required|numeric|min:0',
         ]);
 
         if (!in_array($peminjaman->status, [self::STATUS_DISETUJUI, self::STATUS_DIKEMBALIKAN])) {
@@ -190,14 +194,15 @@ class PeminjamanController extends Controller
                 ]);
             }
 
+            // Simpan semua data pembayaran & denda
             $peminjaman->update([
-                'denda_kerusakan' => $request->denda_manual,
+                'denda_kerusakan' => $request->denda_kerusakan,
                 'dibayar' => true,
             ]);
         });
 
         return redirect()->route('operator.peminjaman.cetak-struk', $peminjaman)
-            ->with('success', 'Denda berhasil disimpan');
+            ->with('success', 'Transaksi berhasil disimpan dan dapat dicetak');
     }
 
     /**

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Peminjaman;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class DashboardController extends Controller
 {
@@ -45,6 +46,17 @@ class DashboardController extends Controller
         // Izinkan struk ditampilkan untuk peminjaman yang disetujui atau sudah dikembalikan
         if (!in_array($peminjaman->status, ['disetujui', 'dikembalikan'])) {
             abort(403, 'Struk hanya bisa dicetak untuk peminjaman yang disetujui atau dikembalikan');
+        }
+
+        // HITUNG DENDA KETERLAMBATAN OTOMATIS jika belum ada
+        if ($peminjaman->status === 'disetujui' && $peminjaman->denda == 0) {
+            $tanggalKembaliSebenarnya = now();
+            $tanggalKembaliHarusnya = Carbon::parse($peminjaman->tanggal_kembali);
+
+            if ($tanggalKembaliSebenarnya->gt($tanggalKembaliHarusnya)) {
+                $hariTerlambat = $tanggalKembaliHarusnya->diffInDays($tanggalKembaliSebenarnya);
+                $peminjaman->denda = $hariTerlambat * 10000 * $peminjaman->jumlah;
+            }
         }
 
         return view('operator.cetak-struk', compact('peminjaman'));
