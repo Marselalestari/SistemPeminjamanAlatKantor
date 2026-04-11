@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind">
 </p>
 
 ---
@@ -26,16 +27,29 @@ Aplikasi ini dikembangkan untuk **Ujian Kompetensi Keahlian (UKK) Rekayasa Peran
 
 ---
 
+## 🏗️ Arsitektur Sistem
+
+### 📊 Entity Relationship Diagram (ERD)
+Menggambarkan hubungan antar tabel dalam database untuk memastikan integritas data.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/f218b01b4b26ff210007f56e3d3b93edd7f4964f/erdsipak.drawio%20(1).png" width="700" alt="ERD SIPAK">
+</p>
+
+### 🔄 Flowchart Sistem
+Alur kerja aplikasi mulai dari proses login hingga transaksi peminjaman selesai.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/f218b01b4b26ff210007f56e3d3b93edd7f4964f/SPK.drawio.png" width="700" alt="Flowchart SIPAK">
+</p>
+
+---
+
 ## 🚀 Fitur Berdasarkan Role
 
-Aplikasi SIPAK memiliki manajemen hak akses yang membagi tugas menjadi tiga bagian utama:
-
 ### 🛡️ 1. Panel Admin
-Admin memiliki otoritas tertinggi untuk memantau seluruh ekosistem aplikasi dan mengelola data master.
-- **Inventory Management:** Mengelola data barang (kantor), stok, dan kategori.
-- **Monitoring Dashboard:** Melihat statistik peminjaman secara real-time.
-- **User Management:** Mengelola akun (tambah/edit/hapus) untuk Admin, Operator, dan User.
-- **Sistem Log:** Memantau aktivitas yang terjadi di dalam aplikasi.
+Admin memiliki otoritas tertinggi untuk mengelola seluruh ekosistem aplikasi.
+- **Inventory Management:** Mengelola data barang, stok, dan kategori.
+- **User Management:** Mengelola akun Admin, Operator, dan User.
+- **Monitoring:** Dashboard statistik peminjaman secara real-time.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(280).png" width="45%">
@@ -45,44 +59,35 @@ Admin memiliki otoritas tertinggi untuk memantau seluruh ekosistem aplikasi dan 
 ---
 
 ### 👨‍💼 2. Panel Operator
-Operator bertugas di bagian teknis dan operasional inventaris barang.
-- **Verifikasi Peminjaman:** Melakukan validasi pengajuan dari user (Setujui/Tolak).
-- **Laporan:** Menghasilkan laporan peminjaman bulanan atau periodik.
+Operator fokus pada validasi transaksi dan penyusunan laporan.
+- **Verifikasi Peminjaman:** Melakukan validasi (Setujui/Tolak) pengajuan user.
+- **Laporan:** Menghasilkan rekapitulasi peminjaman periodik.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(284).png" width="30%">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(285).png" width="30%">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(290).png" width="30%">
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(291).png" width="30%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(292).png" width="30%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(293).png" width="30%">
-</p>
 
 ---
 
 ### 👤 3. Panel User (Peminjam)
-User adalah pegawai atau anggota yang dapat meminjam alat kantor.
-- **Katalog Alat:** Mencari dan melihat detail alat yang tersedia.
-- **Form Peminjaman:** Mengajukan peminjaman secara online tanpa form fisik.
-- **History:** Melihat riwayat peminjaman dan status barang (Sedang dipinjam/Dikembalikan).
+User dapat melakukan proses peminjaman mandiri melalui sistem.
+- **Katalog Digital:** Melihat detail dan stok alat kantor.
+- **Booking Online:** Mengajukan peminjaman secara digital.
+- **Status Tracking:** Melacak riwayat dan status peminjaman.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(286).png" width="45%">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(287).png" width="45%">
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(288).png" width="45%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(289).png" width="45%">
-</p>
 
 ---
 
 ## 🛠 Teknologi yang Digunakan
-- **Backend:** PHP 8.3.30  dengan Framework Laravel
+- **Backend:** PHP 8.3.30 & Laravel Framework
 - **Database:** MySQL
-- **Frontend:** Blade Template Engine & Tailwind
+- **Frontend:** Blade Template Engine & Tailwind CSS
 - **Icons:** FontAwesome / Lucide Icons
 
 ---
