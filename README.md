@@ -80,9 +80,9 @@ User adalah pegawai atau anggota yang dapat meminjam alat kantor.
 ---
 
 ## 🛠 Teknologi yang Digunakan
-- **Backend:** PHP 8.x dengan Framework Laravel
+- **Backend:** PHP 8.3.30  dengan Framework Laravel
 - **Database:** MySQL
-- **Frontend:** Blade Template Engine & Bootstrap
+- **Frontend:** Blade Template Engine & Tailwind
 - **Icons:** FontAwesome / Lucide Icons
 
 ---
