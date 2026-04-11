@@ -12,36 +12,42 @@
 
 ---
 
-### 🌐 Demo Aplikasi
-Aplikasi ini dikembangkan untuk tugas **Ujian Kompetensi Keahlian (UKK) Rekayasa Perangkat Lunak**.
+### 🌐 Informasi Project
+Aplikasi ini dikembangkan untuk **Ujian Kompetensi Keahlian (UKK) Rekayasa Perangkat Lunak**.
 - **Live Demo:** [sipak-sela.rf.gd](http://sipak-sela.rf.gd/)
 - **Hosting:** InfinityFree
 
+### 🔑 Kredensial Login
+| Role | Email | Password |
+| :--- | :--- | :--- |
+| **Admin** | `admin@gmail.com` | `password` |
+| **Operator** | `operator@gmail.com` | `password` |
+| **User** | `user@gmail.com` | `password` |
+
 ---
 
-## 🚀 Fitur Utama
+## 🚀 Fitur Berdasarkan Role
 
-Aplikasi SIPAK dirancang untuk memudahkan manajemen inventaris dan peminjaman alat kantor dengan dua level pengguna utama:
+Aplikasi SIPAK memiliki manajemen hak akses yang membagi tugas menjadi tiga bagian utama:
 
-### 1. Dashboard & Halaman Utama
-Tampilan awal yang memberikan informasi umum mengenai ketersediaan alat dan status peminjaman.
+### 🛡️ 1. Panel Admin
+Admin memiliki otoritas tertinggi untuk memantau seluruh ekosistem aplikasi dan mengelola data master.
+- **Monitoring Dashboard:** Melihat statistik peminjaman secara real-time.
+- **User Management:** Mengelola akun (tambah/edit/hapus) untuk Admin, Operator, dan User.
+- **Sistem Log:** Memantau aktivitas yang terjadi di dalam aplikasi.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(280).png" width="45%">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(281).png" width="45%">
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(282).png" width="45%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(283).png" width="45%">
-</p>
 
 ---
 
-### 👨‍💼 Panel Operator (Admin)
-Operator memiliki kendali penuh atas manajemen data, mulai dari inventaris hingga verifikasi peminjaman.
-- **Manajemen Data:** Mengelola kategori, barang, dan stok.
-- **Validasi:** Melakukan verifikasi terhadap pengajuan peminjaman dari user.
-- **Laporan:** Memantau riwayat peminjaman secara sistematis.
+### 👨‍💼 2. Panel Operator
+Operator bertugas di bagian teknis dan operasional inventaris barang.
+- **Inventory Management:** Mengelola data barang (kantor), stok, dan kategori.
+- **Verifikasi Peminjaman:** Melakukan validasi pengajuan dari user (Setujui/Tolak).
+- **Laporan:** Menghasilkan laporan peminjaman bulanan atau periodik.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(284).png" width="30%">
@@ -56,11 +62,11 @@ Operator memiliki kendali penuh atas manajemen data, mulai dari inventaris hingg
 
 ---
 
-### 👤 Panel User (Peminjam)
-User dapat melakukan pencarian alat kantor dan mengajukan peminjaman secara mandiri.
-- **Katalog:** Melihat daftar alat yang tersedia.
-- **Pengajuan:** Mengisi form peminjaman dengan detail waktu.
-- **Status:** Melacak apakah peminjaman sudah disetujui atau belum.
+### 👤 3. Panel User (Peminjam)
+User adalah pegawai atau anggota yang dapat meminjam alat kantor.
+- **Katalog Alat:** Mencari dan melihat detail alat yang tersedia.
+- **Form Peminjaman:** Mengajukan peminjaman secara online tanpa form fisik.
+- **History:** Melihat riwayat peminjaman dan status barang (Sedang dipinjam/Dikembalikan).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(286).png" width="45%">
@@ -76,8 +82,8 @@ User dapat melakukan pencarian alat kantor dan mengajukan peminjaman secara mand
 ## 🛠 Teknologi yang Digunakan
 - **Backend:** PHP 8.x dengan Framework Laravel
 - **Database:** MySQL
-- **Frontend:** Blade Template Engine & CSS (Custom/Bootstrap)
-- **Icons:** FontAwesome
+- **Frontend:** Blade Template Engine & Bootstrap
+- **Icons:** FontAwesome / Lucide Icons
 
 ---
 <p align="center">Dibuat dengan ❤️ untuk Tugas UKK Rekayasa Perangkat Lunak</p>
