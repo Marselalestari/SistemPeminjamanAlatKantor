@@ -32,6 +32,7 @@ Aplikasi SIPAK memiliki manajemen hak akses yang membagi tugas menjadi tiga bagi
 
 ### 🛡️ 1. Panel Admin
 Admin memiliki otoritas tertinggi untuk memantau seluruh ekosistem aplikasi dan mengelola data master.
+- **Inventory Management:** Mengelola data barang (kantor), stok, dan kategori.
 - **Monitoring Dashboard:** Melihat statistik peminjaman secara real-time.
 - **User Management:** Mengelola akun (tambah/edit/hapus) untuk Admin, Operator, dan User.
 - **Sistem Log:** Memantau aktivitas yang terjadi di dalam aplikasi.
@@ -45,7 +46,6 @@ Admin memiliki otoritas tertinggi untuk memantau seluruh ekosistem aplikasi dan 
 
 ### 👨‍💼 2. Panel Operator
 Operator bertugas di bagian teknis dan operasional inventaris barang.
-- **Inventory Management:** Mengelola data barang (kantor), stok, dan kategori.
 - **Verifikasi Peminjaman:** Melakukan validasi pengajuan dari user (Setujui/Tolak).
 - **Laporan:** Menghasilkan laporan peminjaman bulanan atau periodik.
 
