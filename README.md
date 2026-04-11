@@ -1,25 +1,80 @@
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(279).png" width="800">
+</p>
 
-# 🔥 HASILNYA
-
-✔ Semua gambar pasti muncul  
-✔ Tidak pakai `/blob/` lagi  
-✔ README jadi profesional  
-✔ Cocok untuk portfolio / lamaran kerja
+<h1 align="center">Sistem Peminjaman Alat Kantor</h1>
 
 ---
 
-# ⚠️ CATATAN PENTING
+## 📸 Screenshot Aplikasi
 
-Kalau ada gambar tidak muncul:
-- pastikan file sudah di push ke branch `main`
-- nama file harus sama persis (termasuk spasi & tanda kurung)
+### Halaman Utama
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(280).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(281).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(282).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(283).png">
+</p>
 
 ---
 
-Kalau kamu mau upgrade lagi, aku bisa bantu:
-🔥 :contentReference[oaicite:0]{index=0}  
-🔥 atau :contentReference[oaicite:1]{index=1}
+## 👨‍💼 Operator
 
-Tinggal bilang 👍
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(284).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(285).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(290).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(291).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(292).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(293).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(294).png">
+</p>
+
+---
+
+## 👤 User
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(286).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(287).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(288).png">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(289).png">
+</p>
