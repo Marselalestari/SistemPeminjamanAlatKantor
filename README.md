@@ -30,56 +30,62 @@ Aplikasi ini dikembangkan untuk **Ujian Kompetensi Keahlian (UKK) Rekayasa Peran
 ## 🏗️ Arsitektur Sistem
 
 ### 📊 Entity Relationship Diagram (ERD)
-Menggambarkan hubungan antar tabel dalam database untuk memastikan integritas data.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/f218b01b4b26ff210007f56e3d3b93edd7f4964f/erdsipak.drawio%20(1).png" width="700" alt="ERD SIPAK">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/f218b01b4b26ff210007f56e3d3b93edd7f4964f/erdsipak.drawio%20(1).png" width="700">
 </p>
 
 ### 🔄 Flowchart Sistem
-Alur kerja aplikasi mulai dari proses login hingga transaksi peminjaman selesai.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/f218b01b4b26ff210007f56e3d3b93edd7f4964f/SPK.drawio.png" width="700" alt="Flowchart SIPAK">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/f218b01b4b26ff210007f56e3d3b93edd7f4964f/SPK.drawio.png" width="700">
 </p>
 
 ---
 
-## 🚀 Fitur Berdasarkan Role
+## 🚀 Fitur & Dokumentasi Interface
 
 ### 🛡️ 1. Panel Admin
-Admin memiliki otoritas tertinggi untuk mengelola seluruh ekosistem aplikasi.
-- **Inventory Management:** Mengelola data barang, stok, dan kategori.
-- **User Management:** Mengelola akun Admin, Operator, dan User.
-- **Monitoring:** Dashboard statistik peminjaman secara real-time.
+Mengelola data master, user, serta memantau statistik dashboard utama.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(280).png" width="45%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(281).png" width="45%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(280).png" width="48%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(281).png" width="48%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(282).png" width="48%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(283).png" width="48%">
 </p>
 
 ---
 
 ### 👨‍💼 2. Panel Operator
-Operator fokus pada validasi transaksi dan penyusunan laporan.
-- **Verifikasi Peminjaman:** Melakukan validasi (Setujui/Tolak) pengajuan user.
-- **Laporan:** Menghasilkan rekapitulasi peminjaman periodik.
+Berfokus pada manajemen barang dan proses verifikasi pengajuan peminjaman.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(284).png" width="30%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(285).png" width="30%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(290).png" width="30%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(284).png" width="48%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(285).png" width="48%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(290).png" width="48%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(291).png" width="48%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(292).png" width="31%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(293).png" width="31%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(294).png" width="31%">
 </p>
 
 ---
 
 ### 👤 3. Panel User (Peminjam)
-User dapat melakukan proses peminjaman mandiri melalui sistem.
-- **Katalog Digital:** Melihat detail dan stok alat kantor.
-- **Booking Online:** Mengajukan peminjaman secara digital.
-- **Status Tracking:** Melacak riwayat dan status peminjaman.
+Antarmuka untuk melakukan booking barang dan melihat riwayat peminjaman pribadi.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(286).png" width="45%">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(287).png" width="45%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(286).png" width="48%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(287).png" width="48%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(288).png" width="48%">
+  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(289).png" width="48%">
 </p>
 
 ---
