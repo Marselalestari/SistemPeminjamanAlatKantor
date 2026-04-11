@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(279).png" width="800" alt="Banner SIPAK">
+     <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(280).png" width="48%">
 </p>
 
 <h1 align="center">Sistem Peminjaman Alat Kantor (SIPAK)</h1>
@@ -47,7 +48,7 @@ Aplikasi ini dikembangkan untuk **Ujian Kompetensi Keahlian (UKK) Rekayasa Peran
 Mengelola data master, user, serta memantau statistik dashboard utama.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(280).png" width="48%">
+ 
   <img src="https://raw.githubusercontent.com/Marselalestari/SistemPeminjamanAlatKantor/main/Screenshot%20(281).png" width="48%">
 </p>
 <p align="center">
